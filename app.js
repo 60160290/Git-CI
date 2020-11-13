@@ -19,7 +19,7 @@ app.get('/items', (req, res) => {
 // a
 app.get('/:id', (req, res) => {
     let id = req.params.id
-    res.json(phones[id-1])
+    res.json(items[id-1])
 })
 
 app.get('/', (req, res) => {
